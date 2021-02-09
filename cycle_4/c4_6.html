@@ -1,0 +1,26 @@
+<!doctype html><html><head>
+<title>multiple of 3 or 7</title>
+</head>
+<body>
+Enter Number: <input type="text" id="myText1" onchange="myFunction()">
+<button onclick="add()">Check</button><br><br>
+<p id="b"></p>
+<script>
+function myFunction() 
+{
+   var a = document.getElementById("myText1").value;
+   if (a % 3 == 0) 
+   {
+  alert("multiple of 3")
+   } 
+else if (a % 7 == 0) 
+{
+  alert("multiple of 7")
+} 
+else {
+   alert("Entered value is not a multiple of 3 & 7")
+}
+}
+</script>
+
+</body></html>

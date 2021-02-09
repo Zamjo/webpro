@@ -1,0 +1,19 @@
+<!doctype html><html><head>
+<script>
+function add()
+{
+var a,b,sum;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+sum=a + b;
+document.getElementById("answer").value= sum;
+}
+</script>
+</head>
+<body>
+Enter the First Number:<input id="first"><br>
+Enter the Second Number:<input id="second"><br>
+<button onclick="add()">Add</button>
+<input id="answer">
+
+</body></html>

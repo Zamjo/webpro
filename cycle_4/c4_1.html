@@ -1,0 +1,14 @@
+<!doctype html><html><head><title>Read an input and print in p tag</title>
+</head><body>
+Enter Your Name: <input type="text" id="myText">
+<p id="b"></p>
+<button onclick="myFunction()">SUBMIT</button>
+<script>
+function myFunction() 
+{
+   var a = document.getElementById("myText").value;
+   document.getElementById("b").innerHTML = a;
+}
+</script>
+
+</body></html>
